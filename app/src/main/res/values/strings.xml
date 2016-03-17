@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FitnessHub</string>
+
+
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_yoga">Yoga Workout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cardio">Cardio Workout</string>
+    <string name="title_activity_abs">Abs Workout</string>
+    <string name="title_activity_stamina">Stamina Workout</string>
+    <string name="title_activity_beginner">Beginner Workout</string>
+    <string name="title_activity_extreme">ExtremeWorkout</string>
+    <string name="title_activity_video_web">VideoWebActivity</string>
+</resources>

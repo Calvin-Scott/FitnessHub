@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_video"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="4dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:onClick= "OpenInfo"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:id="@+id/cardImage"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_margin="16dp"
+        android:id="@+id/cardTitle"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/cardImage"
+        android:layout_marginTop="16dp"
+        android:text="Title"
+        android:textSize="24sp"
+        android:textAppearance="@style/ThemeOverlay.AppCompat"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardDescription"
+        android:layout_margin="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cardImage"
+        android:text="Description"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:textColor="@color/dark_grey"/>
+
+
+</RelativeLayout>
+    
+</android.support.v7.widget.CardView>
+
